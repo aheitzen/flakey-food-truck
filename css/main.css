@@ -4,12 +4,30 @@
 	--salmon: #df5372;
 	--mint: #8ac8bd;
 	--yellow: #f5ed64;
+	--margin-top-large: 3.6em;
 }
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
 
+/*NAV SECTION*/
+#nav {
+	background-color: var(--mint);
+	height: 3.3em;
+}
+
+/*HERO SECTION*/
+#hero {
+	
+	height: 100%;
+	width: 100%;
+}
 /*CATERING SECTION*/
 #catering {
-	background-color: ;
+	background-color: var(--mint);
+	margin-top: var(--margin-top-large);
 }
 
 .card-header {
