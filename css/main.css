@@ -1,0 +1,19 @@
+:root {
+	--dark-pink: #e87ab0;
+	--light-pink: #f4d0df;
+	--salmon: #df5372;
+	--mint: #8ac8bd;
+	--yellow: #f5ed64;
+}
+
+
+/*CATERING SECTION*/
+#catering {
+	background-color: ;
+}
+
+.card-header {
+	background-image: url("../images/confetti-cros.jpg");
+
+
+}
