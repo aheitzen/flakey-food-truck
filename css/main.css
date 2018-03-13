@@ -36,10 +36,42 @@ html, body {
 
 }
 
+/*FOOTER ICONS*/
+
+svg.svg-inline--fa.fa-instagram.fa-w-14 {
+	margin-left: 0;
+	font-size: 1.7em;
+	color: var(--salmon);
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+svg.svg-inline--fa.fa-twitter.fa-w-16,svg.svg-inline--fa.fa-yelp.fa-w-12 {
+	font-size: 1.7em;
+	margin-left: 2em;
+	color: var(--salmon);
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
 /*FOOTER & SUB-FOOTER SECTION*/
 #sub-footer {
-	background-color: var(--light-pink);
+	background-color: var(--dark-pink);
 
+}
+
+h5 {
+	font-family: 'Abril Fatface', cursive;
+
+}
+h4 {
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+}
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
 }
 
 h2 {
@@ -47,5 +79,11 @@ h2 {
 }
 
 p.footer-text {
-	margin-top: .5em;
+	margin-top: .8em;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.footer-text:hover {
+	cursor: pointer;
+	color: var(--green);
 }
