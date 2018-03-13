@@ -42,23 +42,40 @@ svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	margin-left: 0;
 	font-size: 1.7em;
 	color: var(--salmon);
-	margin-top: 1.2em;
-	margin-bottom: 1.2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
 }
 
 svg.svg-inline--fa.fa-twitter.fa-w-16,svg.svg-inline--fa.fa-yelp.fa-w-12 {
 	font-size: 1.7em;
 	margin-left: 2em;
 	color: var(--salmon);
-	margin-top: 1.2em;
-	margin-bottom: 1.2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+svg.svg-inline--fa.fa-instagram.fa-w-14:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+svg.svg-inline--fa.fa-twitter.fa-w-16:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+svg.svg-inline--fa.fa-yelp.fa-w-12:hover {
+	color: orange;
+	cursor: pointer;
 }
 
 /*FOOTER & SUB-FOOTER SECTION*/
 #sub-footer {
 	background-color: var(--dark-pink);
+	margin-top: 2em;
 
 }
+
 
 h5 {
 	font-family: 'Abril Fatface', cursive;
@@ -67,7 +84,8 @@ h5 {
 h4 {
 	font-family: 'Fira Sans', sans-serif;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1em;
+	margin-top: 1em;
 }
 h3 {
 	font-family: 'Abril Fatface', cursive;
@@ -83,7 +101,11 @@ p.footer-text {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+.margin-top-medium {
+	margin-top: 2em;
+}
+
 .footer-text:hover {
 	cursor: pointer;
-	color: var(--green);
+	color: orange;
 }
