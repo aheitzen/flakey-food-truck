@@ -35,3 +35,12 @@ html, body {
 
 
 }
+
+#sub-footer {
+	background-color: var(--light-pink);
+
+}
+
+p {
+	margin-top: .5em;
+}
