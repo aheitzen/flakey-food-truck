@@ -36,11 +36,16 @@ html, body {
 
 }
 
+/*FOOTER & SUB-FOOTER SECTION*/
 #sub-footer {
 	background-color: var(--light-pink);
 
 }
 
-p {
+h2 {
+	font-family: 'Pattaya', sans-serif;
+}
+
+p.footer-text {
 	margin-top: .5em;
 }
