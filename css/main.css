@@ -38,6 +38,9 @@ html, body {
 .card-header {
 	background: var(--dark-pink);
 	border-radius: 0;
+	font-family: 'Raleway', sans-serif;
+
+	
 }
 .card-header:first-child {
 	border-radius: 0;
@@ -67,7 +70,8 @@ button.btn.btn-outline-primary:hover {
 }
 
 label.col-sm-2.col-form-label {
-	font-family: 'Fira Sans', sans-serif;
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 	color: #262626;
 }
 
@@ -130,18 +134,22 @@ svg.svg-inline--fa.fa-yelp.fa-w-12:hover {
 
 
 h5 {
-	font-family: 'Abril Fatface', cursive;
-
+	/*font-family: 'Abril Fatface', cursive;*/
+	font-family: 'Raleway', sans-serif;
 }
+
 h4 {
-	font-family: 'Fira Sans', sans-serif;
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 1em;
 	margin-top: 1em;
 }
 h3 {
-	font-family: 'Abril Fatface', cursive;
+	/*font-family: 'Abril Fatface', cursive;*/
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 h2 {
@@ -153,11 +161,12 @@ h2 {
 
 p.footer-text {
 	margin-top: .8em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Fira Sans', sans-serif;*/
 }
 
 #social-media {
-	/*background-color: var(--light-pink);*/
+	
 }
 
 .margin-top-medium {
@@ -166,10 +175,10 @@ p.footer-text {
 
 .sub-footer-text {
 	margin-top: .8em;
-	font-family: 'Fira Sans', sans-serif;
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 }
 
 .footer-text:hover {
 	cursor: pointer;
-	color: orange;
-}
+	color: orange;}
