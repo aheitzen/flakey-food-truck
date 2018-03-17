@@ -30,7 +30,7 @@ html, body {
 	margin-top: var(--margin-top-large);
 /*	background: linear-gradient(to bottom, #f4cce1, #f4cce1 50%, #fff 50%, #fff);
 	background-size: 100% 164px;*/
-	background-color: white;
+	background-color: red;
 }
 
 .catering-text {
@@ -262,18 +262,93 @@ p.footer-text {
 .car-text {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
+	font-size: 16px;
+	/*margin: 30px 200px 200px 10px;*/
+	margin-top: 35px;
+	margin-left: 40px;
+	margin-right: 50px;
+	color: #464a4e;
+}
+
+.test-paragraph {
+	/*display: inline;*/
+	text-align: center;
+	margin-top: 1em;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+svg.svg-inline--fa.fa-quote-left.fa-w-16 {
+	margin: 0 auto;
+	color: var(--salmon);
+	display: flex;
+	font-size: 25px;
+	margin-top: 1em;
+
+}
+svg.svg-inline--fa.fa-quote-right.fa-w-16 {
+	margin-left: 350px;
+	color: var(--salmon);
+	font-size: 25px;
+}
+.test-paragraph-small {
+	font-size: 10px;
+	text-align: center;
+	margin-top: -10px;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 div#carouselExampleIndicators {
 	background-color: white;
 	min-height: 300px;
-	width: 70%;
-	border-radius: 10px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.test-img {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+.carousel-indicators {
+	background-color: red;
+	margin-top: 10em;
+}
+
+.no-padding {
+	padding: 0;
+	background-color: white;
+	background-image: url("../images/test-img.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	height: 100%;
+	width: 100%;*/
+}
+
+/*.main-test-img {
+	height: 100%;
+	width: 100%;
+	transform: rotate(270deg);
+	
+}*/
+
+#fixed-height-row {
+	height: 420px;
+}
+
+.test-header {
+	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 #test-section {
 	/*background-color: pink;*/
-	background: linear-gradient(to bottom, #f4cce1, #f4cce1 50%, #fff 50%, #fff);
-	background-size: 100% 164px;
+	background: linear-gradient(to bottom, var(--dark-pink), var(--dark-pink) 50%, #f4cce1 50%, #f4cce1); /*#f4cce1*/ 
+	background-size: 100% 170px;
 
 }
