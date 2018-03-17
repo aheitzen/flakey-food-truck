@@ -26,20 +26,66 @@ html, body {
 }
 /*CATERING SECTION*/
 #catering {
-	background-color: var(--mint);
+	/*background-color: var(--salmon);*/
 	margin-top: var(--margin-top-large);
+	background: linear-gradient(to bottom, #f4cce1, #f4cce1 50%, #fff 50%, #fff);
+	background-size: 100% 164px;
 }
+
+.catering-text {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+    margin-top: 132px;
+    letter-spacing: 2px;
+    color: #464a4e;
+}
+
+.catering-sub-text {
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	text-shadow: 2.3px -1px #fff;
+	margin-top: .7em;
+	margin-bottom: .9em;
+	color: #464a4e;
+}
+
+#shadow-text {
+	font-family: 'Abril Fatface', cursive;
+	color: #464a4e;
+	/*text-shadow: 2.3px -1px #fff;*/
+}
+
+svg.svg-inline--fa.fa-heart.fa-w-18 {
+	font-size: .7em;
+	color: var(--salmon);
+}
+
 
 .card {
 	border-radius: 0;
 	border: none;
+	margin-top: 3em;
+	margin-bottom: 3.3em;
 }
+
+.card:after {
+	content: "";
+	background-color: red;
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    left: -300px;
+    width: 100%;
+    height: 100%;
+   }
 
 .card-header {
 	background: var(--dark-pink);
 	border-radius: 0;
 	font-family: 'Raleway', sans-serif;
-
+	margin-top: 0;
 	
 }
 .card-header:first-child {
@@ -83,9 +129,9 @@ textarea {
 
 textarea:active, textarea:focus {
 	outline: none !important;
-	border-color: #df5372;
+	border-color: var(--light-pink);
   	/*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);*/
-  	box-shadow: inset 0 1px 1px #df5372, 0 0 2px #df5372;
+  	box-shadow: inset 0 1px 1px var(--light-pink), 0 0 2px var(--light-pink);
 }
 
 #staticOther {
@@ -136,6 +182,7 @@ svg.svg-inline--fa.fa-yelp.fa-w-12:hover {
 h5 {
 	/*font-family: 'Abril Fatface', cursive;*/
 	font-family: 'Raleway', sans-serif;
+	margin-top: 3em;
 }
 
 h4 {
@@ -155,8 +202,15 @@ h3 {
 h2 {
 	font-family: 'Pattaya', sans-serif;
 	font-size: 3.5em;
-	margin-top: 1em;
+	margin-top: 1.8em;
 	margin-left: .5em;
+}
+
+h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	margin-left: 1.6em;
+	margin-top: -10px;
 }
 
 p.footer-text {
@@ -166,7 +220,20 @@ p.footer-text {
 }
 
 #social-media {
-	
+	background-color: #c2e7ef;
+
+}
+
+#social-media:after {
+	content: " ";
+    display:block;
+    position: relative;
+	top:0px;left:0px;
+    width:100%;
+    height:36px;
+    background: -webkit-linear-gradient(#c2e7ef 0%, transparent 0%), -webkit-linear-gradient(135deg, #fff 33.33%, transparent 33.33%) 0 0%, #fff -webkit-linear-gradient(45deg, #fff 33.33%, #c2e7ef 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 20px 27px, 20px 27px;
 }
 
 .margin-top-medium {
