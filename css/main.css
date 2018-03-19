@@ -83,24 +83,33 @@ h3{
    font-family: var(--sub-header-font);
     font-weight: bold
 }
+
 #featured {
     background-color: lavenderblush;
-/*    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 47px*/
+    transform: translateY(-68px);
+
 }
 
-.feature-header {
+
+
+#featured-margin {
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+#feature-header {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
+	margin-left: 0;
+	margin-top: .7em;
+	font-size: 13px;
 }
 
 .feature-images {
-	height: 20px;
+	height: 21px;
+	     margin-top: 23px;
+	 margin-bottom: 1.5em;
 }
 #menu-content-1 {
         margin-top: 62px;
@@ -115,8 +124,9 @@ p{
     color: #96502f;
 }
 #seattle-times{
-    margin-top: 10px;
-    margin-left: 40px;
+   
+    
+    margin-left: 86px;
 }
 #seattle-refined {
     margin-top: 17px;
