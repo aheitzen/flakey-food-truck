@@ -1,10 +1,13 @@
 :root {
 	--dark-pink: #e87ab0;
-	--light-pink: #f4d0df;
+	--light-ink: #f4d0df;
 	--salmon: #df5372;
 	--mint: #8ac8bd;
 	--yellow: #f5ed64;
 	--margin-top-large: 3.6em;
+    --header-font:'Pattaya', sans-serif;
+    --sub-header-font:'Raleway', sans-serif;
+    --Paragraph-font:'Raleway', sans-serif ;
 }
 
 html, body {
@@ -14,16 +17,112 @@ html, body {
 
 /*NAV SECTION*/
 #nav {
-	background-color: var(--mint);
-	height: 3.3em;
+	background-color: var(--light-pink);
+	height: 5.3em;
+/*    position: fixed;*/
+       margin-left: -60px;
+        padding: 1.5rem 1rem;
 }
 
 /*HERO SECTION*/
 #hero {
-	
+	margin-bottom: 0px;
+    height: 63%;
+    width: 100%;
+    background-image: url("../images/f7659c8ccf96f151fa5df150fea3feb5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+/*CATERING SECTION*/
+/*#catering {
+	background-color: var(--mint);
+	margin-top: var(--margin-top-large);
+}*/
+
+/*.card-header {
+	background-image: url("../images/confetti-cros.jpg");
+
+
+}*/
+h2{
+text-align: center;
+font-family: var(--sub-header-font);
+    font-weight: 900;
+}
+#mission-picture {
+    width: 82%%;
+        margin-left: 200px;
+    margin-bottom: -39px;
+    margin-top: -45px;
+}
+a {
+    color: black;
+
+}
+ul{
+     margin-top: -27px;
+    justify-content: space-evenly;
+    font-family: var(--header-font);
+    
+}
+#menu{
+    margin-top:65px;
+    margin-bottom: 50px;
+}
+.menu-img{
+    display: flex;
+    margin: 0 auto;
+}
+li{
+    font-size: 25px;
+}
+h3{
+   font-family: var(--sub-header-font);
+    font-weight: bold
+}
+#Featured {
+    background-color: lavenderblush;
+        width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 47px
+}
+#menu-content-1 {
+        margin-top: 62px;
+}
+p{
+    font-family: var( --Paragraph-font);
+    font-weight: 200
+}
+.card{
+    margin-left: 20px;
+    text-align: center;
+    color: #96502f;
+}
+#seattle-times{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#seattle-refined {
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+/*html, body {
 	height: 100%;
 	width: 100%;
+}*/
+
+/*NAV SECTION*/
+#nav {
+	background-color: var(--mint);
+	height: 3.3em;
 }
+
 /*CATERING SECTION*/
 #catering {
 	background-color: #fff6e7;
@@ -42,6 +141,12 @@ html, body {
     
 }
 
+#black-card-header {
+	color: black;
+	text-align: left;
+
+}
+
 .catering-img {
 	height: 300px;
 	width: auto;
@@ -55,8 +160,8 @@ html, body {
 	background-color: var(--dark-pink);
 	/*background-color: white;*/
     position: absolute;
-    top: 8px;
-    right: 269px;
+    top: 11px;
+    right: 262px;
     width: 50%;
     height: 100%;
     display: block;
@@ -68,6 +173,15 @@ html, body {
                 padding: 0;
                 margin:0;
             }
+.schedule-paragraph-text {
+	font-family: 'Raleway', sans-serif;
+	padding: .75rem 1.25rem;
+}
+
+.list-group-item {
+	font-family: 'Raleway', sans-serif;
+}
+
 .no-padding-global {
 	padding: 0;
 }
@@ -81,6 +195,17 @@ html, body {
 	margin-top: -80px;
 	margin-bottom: 2em;
 	position: relative;
+}
+
+.catering-header {
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	/*margin-top: 1.3em;*/
+	margin-bottom: .7em;
+	text-align: center;
+	margin-left: 40px;
+
 }
 
 .catering-sub-text {
@@ -265,11 +390,12 @@ h3 {
 
 }
 
-h2 {
+#logo-footer {
 	font-family: 'Pattaya', sans-serif;
 	font-size: 3.5em;
 	margin-top: 1.2em;
 	margin-left: 40px;
+	text-align: left
 }
 
 h6 {
