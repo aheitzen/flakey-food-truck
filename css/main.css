@@ -15,14 +15,6 @@ html, body {
 	width: 100%;
 }
 
-/*NAV SECTION*/
-/*#nav {
-	background-color: #f6accc;
-	height: 5.3em;
-    padding: 1rem 1rem;
-    font-family: 'Raleway', sans-serif;
-}*/
-
 #nav {
 	padding: 0;
 }
@@ -31,16 +23,11 @@ html, body {
 	font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16px;
-
 }
 
 .bg-light {
 	background-color: white !important;
-	
 }
-
-
-
 
 /*HERO SECTION*/
 #hero {
@@ -64,9 +51,7 @@ h2 {
 	background-color: white;
 }
 
-
 .mission-picture {
-	/*margin-top: 18px;*/
 	background-color: white;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -77,26 +62,12 @@ h2 {
 	background-image: url("../images/mission-final.png");
 }
 
-#mission-picture:after {
-	content: "";
-	background-color: var(--dark-pink);
-    position: absolute;
-    top: 11px;
-    right: 262px;
-    width: 50%;
-    height: 100%;
-    display: block;
-
-}
-
 .mission-paragraph-text {
 	font-family: 'Raleway', sans-serif;
   	margin: 2.5em 2em 0 2em;
-   line-height: 2.2;
+   	line-height: 2.2;
     font-size: 1.2em;
     margin-bottom: 2.5em;
-
-
 }
 
 .mission-statement-header {
@@ -110,7 +81,6 @@ h2 {
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    /* text-shadow: 2.3px -1px #fff; */
     margin-top: 1.3em;
     margin-bottom: .3em;
     text-align: center;
@@ -121,16 +91,14 @@ a {
     color: black;
 }
 
-ul{
+ul {
      margin-top: -27px;
     justify-content: space-evenly;
     font-family: var(--header-font);
     
 }
-#menu{
-    
-    /*margin-bottom: 50px;*/
-    background-color: #fff6e7;
+#menu {
+	background-color: #fff6e7;
 }
 
 .card.card-menu {
@@ -150,24 +118,21 @@ ul{
     margin-bottom: 2em;
 }
 
-li{
+li {
     font-size: 25px;
     margin-right: 100px;
     margin-top: 20px;
     color: black;
 }
-h3{
+
+h3 {
    font-family: var(--sub-header-font);
     font-weight: bold
 }
 
 #featured {
     background-color: #fff6e7;
-    /*transform: translateY(-68px);*/
-
 }
-
-
 
 #featured-margin {
 	margin-left: 160px;
@@ -185,18 +150,18 @@ h3{
 
 .feature-images {
 	height: 21px;
-	     margin-top: 23px;
-	 margin-bottom: 1.5em;
+	margin-top: 23px;
+	margin-bottom: 1.5em;
 }
+
 #menu-content-1 {
-        margin-top: 62px;
+	margin-top: 62px;
 }
 
 .menu-sub-text {
 	margin-top: 0;
 	font-size: 15px;
 	color: black;
-
 }
 
 .paragraph-text {
@@ -209,17 +174,14 @@ h3{
 	font-size: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    /*margin-bottom: 1.5em;*/
     text-align: center;
     color: black;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 1.7em;
-
 }
 
-
-p{
+p {
     font-family: var( --Paragraph-font);
     font-weight: 200
 }
@@ -228,20 +190,10 @@ p{
     text-align: center;
     color: #96502f;
 }
-#seattle-times{
-   
-    
-    margin-left: 86px;
-}
-#seattle-refined {
-    margin-top: 17px;
-    margin-left: 40px;
-}
 
 /*CATERING SECTION*/
 #catering {
 	background-color: #fff6e7;
-	/*margin-top: var(--margin-top-large);*/
 	padding: 0;
 }
 
@@ -250,13 +202,11 @@ p{
 	font-size: 30px;
     margin-top: 132px;
     letter-spacing: 2px;
-    
 }
 
 #black-card-header {
 	color: black;
 	text-align: left;
-
 }
 
 .catering-img {
@@ -270,7 +220,6 @@ p{
 .catering-img:after {
 	content: "";
 	background-color: var(--dark-pink);
-	/*background-color: white;*/
     position: absolute;
     top: 11px;
     right: 262px;
@@ -285,6 +234,7 @@ p{
     padding: 0;
     margin:0;
 }
+
 .schedule-paragraph-text {
 	font-family: 'Raleway', sans-serif;
 	padding: .75rem 1.25rem;
@@ -306,7 +256,6 @@ p{
 	padding: 0;
 }
 
-
 .catering-img-two {
 	height: 400px;
 	width: auto;
@@ -325,19 +274,16 @@ p{
 	text-align: center;
 	margin-left: 40px;
 	margin-top: 20px;
-
 }
 
 .catering-sub-text {
 	font-size: 40px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	/*text-shadow: 2.3px -1px #fff;*/
 	margin-top: 1.3em;
 	margin-bottom: .3em;
 	text-align: left;
 	margin-left: 40px;
-	/*color: #464a4e;*/
 }
 
 #shadow-text {
@@ -347,15 +293,12 @@ p{
 	text-align: left;
 	margin-left: 40px;
 	margin-bottom: -20px;
-	/*color: #464a4e;*/
-	/*text-shadow: 2.3px -1px #fff;*/
 }
 
 svg.svg-inline--fa.fa-heart.fa-w-18 {
 	font-size: .7em;
 	color: var(--salmon);
 }
-
 
 .card {
 	border-radius: 0;
@@ -382,12 +325,12 @@ svg.svg-inline--fa.fa-heart.fa-w-18 {
 	border-radius: 0;
 	font-family: 'Raleway', sans-serif;
 	margin-top: 0;
-	
 }
 
 .card-body {
 	background-color: white;
 }
+
 .card-header:first-child {
 	border-radius: 0;
 }
@@ -416,7 +359,6 @@ button.btn.btn-outline-primary:hover {
 }
 
 label.col-sm-2.col-form-label {
-	/*font-family: 'Fira Sans', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 	color: #262626;
 }
@@ -430,7 +372,6 @@ textarea {
 textarea:active, textarea:focus {
 	outline: none !important;
 	border-color: var(--light-pink);
-  	/*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);*/
   	box-shadow: inset 0 1px 1px var(--light-pink), 0 0 2px var(--light-pink);
 }
 
@@ -439,7 +380,6 @@ textarea:active, textarea:focus {
 }
 
 /*FOOTER ICONS*/
-
 svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	margin-left: 0;
 	font-size: 1.7em;
@@ -485,29 +425,24 @@ svg.svg-inline--fa.fa-facebook-f.fa-w-9:hover {
 #sub-footer {
 	background-color: var(--dark-pink);
 	margin-top: 2em;
-
 }
 
 
 h5 {
-	/*font-family: 'Abril Fatface', cursive;*/
 	font-family: 'Raleway', sans-serif;
 	margin-top: 1.5em;
 }
 
 h4 {
-	/*font-family: 'Fira Sans', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 1.7em;
 	margin-top: 1em;
-	/*margin-bottom: 20px;*/
 }
+
 h3 {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
-	/*font-family: 'Raleway', sans-serif;*/
-
 }
 
 #logo-footer {
@@ -528,15 +463,6 @@ h6 {
 p.footer-text {
 	margin-top: .8em;
 	font-family: 'Raleway', sans-serif;
-	/*font-family: 'Fira Sans', sans-serif;*/
-}
-
-#social-media {
-	/*background-color: #c2e7ef;*/
-	/*background: linear-gradient(to bottom, #fff, #fff 50%, #f4cce1 50%, #f4cce1); */
-	/*background-size: 100% 120px;*/
-
-
 }
 
 #catering:after {
@@ -559,7 +485,6 @@ p.footer-text {
 
 .sub-footer-text {
 	margin-top: .8em;
-	/*font-family: 'Fira Sans', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -578,7 +503,6 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	font-size: 16px;
-	/*margin: 30px 200px 200px 10px;*/
 	margin-top: 35px;
 	margin-left: 40px;
 	margin-right: 50px;
@@ -586,11 +510,9 @@ hr {
 }
 
 .test-paragraph {
-	/*display: inline;*/
 	text-align: center;
 	margin-top: 1em;
 	font-family: 'Raleway', sans-serif;
-
 }
 
 svg.svg-inline--fa.fa-quote-left.fa-w-16 {
@@ -599,19 +521,19 @@ svg.svg-inline--fa.fa-quote-left.fa-w-16 {
 	display: flex;
 	font-size: 25px;
 	margin-top: 1em;
-
 }
+
 svg.svg-inline--fa.fa-quote-right.fa-w-16 {
 	margin-left: 362px;
 	color: var(--salmon);
 	font-size: 25px;
 }
+
 .test-paragraph-small {
 	font-size: 10px;
 	text-align: center;
 	margin-top: -10px;
 	font-family: 'Raleway', sans-serif;
-
 }
 
 div#carouselExampleIndicators {
@@ -649,19 +571,6 @@ a.nav-link {
 	width: 100%;
 }
 
-/*.main-test-img {
-	height: 100%;
-	width: 100%;
-	transform: rotate(270deg);
-	
-}*/
-
-/*#schedule {
-	background-color: pink;
-	height: 100%;
-	width: 100%;
-}*/
-
 #fixed-height-row {
 	height: 490px;
 }
@@ -676,11 +585,8 @@ a.nav-link {
 }
 
 #test-section {
-	/*background-color: pink;*/
-	/*background: linear-gradient(to bottom, var(--dark-pink), var(--dark-pink) 50%, #f4cce1 50%, #f4cce1); /*#f4cce1*/ */
 	background-size: 100% 170px;
 	background-color: white;
-
 }
 
 
