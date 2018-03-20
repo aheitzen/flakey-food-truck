@@ -16,11 +16,15 @@ html, body {
 }
 
 /*NAV SECTION*/
-#nav {
+/*#nav {
 	background-color: #f6accc;
 	height: 5.3em;
     padding: 1rem 1rem;
     font-family: 'Raleway', sans-serif;
+}*/
+
+#nav {
+	padding: 0;
 }
 
 .nav-link {
@@ -28,6 +32,11 @@ html, body {
     font-weight: 500;
     font-size: 16px;
 
+}
+
+.bg-light {
+	background-color: white !important;
+	
 }
 
 
@@ -143,6 +152,9 @@ ul{
 
 li{
     font-size: 25px;
+    margin-right: 100px;
+    margin-top: 20px;
+    color: black;
 }
 h3{
    font-family: var(--sub-header-font);
@@ -323,7 +335,7 @@ p{
 	/*text-shadow: 2.3px -1px #fff;*/
 	margin-top: 1.3em;
 	margin-bottom: .3em;
-	text-align: center;
+	text-align: left;
 	margin-left: 40px;
 	/*color: #464a4e;*/
 }
@@ -332,7 +344,7 @@ p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 	margin-left: 40px;
 	margin-bottom: -20px;
 	/*color: #464a4e;*/
@@ -622,6 +634,10 @@ div#carouselExampleIndicators {
 	margin-top: 10em;
 }
 
+a.nav-link {
+	color: black;
+}
+
 .no-padding {
 	padding: 0;
 	background-color: white;
@@ -683,6 +699,63 @@ div#carouselExampleIndicators {
   	h5, p.footer-text {
   		text-align: center;
   	}
+  	svg.svg-inline--fa.fa-quote-right.fa-w-16 {
+  		display: none;
+  	}
+  	#logo-footer {
+  		text-align: center;
+  		margin-left: 0;
+  	}
+  	.catering-img {
+  		display: none;
+  	}
+  	.catering-img-two {
+  		display: none;
+  	}
+  	.no-padding {
+  		display: none;
+  	}
+  	.card {
+  		margin-left: 0;
+  	}
+  	label {
+  		text-align: left;
+  	}
+  	.no-padding-global {
+  		display: none;
+  	}
+  	#map {
+  		display: none;
+  	}
+  	.catering-header {
+  		margin-top: 2.4em;
+  		margin-left: 0;
+  	}
+  	.mission-statement-header {
+  		margin-left: 0;
+  		margin-top: 0;
+  	}
+  	.test-header {
+  		font-size: 35px;
+  	}
+  	.mission-paragraph-text {
+  		font-size: 16px;
+  	}
+  	#hero {
+  		height: 373px;
+  		background-size: 100%;
+    	background-attachment: initial; 
+  	}
+  	hr {
+  		width: 300px;
+  	}
+  	a.nav-link {
+  		margin-top: 45px;
+  	}
+  	#after-card:after {
+  		display: none;
+  	}
+
 
 }
 
